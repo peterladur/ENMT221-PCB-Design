@@ -1,0 +1,17 @@
+Questions:
+
+1. is it fine to have the screw pins
+2. Is the ENEL270 correct
+3. What shall I put for C and R?
+4. Is it a good idea to add an LED after the voltage regulator? Where are some other places I should add debugging LEDs? Maybe in my motors?
+5. is it a good idea to have
+5. Is there anything else I am missing?
+
+
+
+Add battery connector
+2x5 input for coding
+bulk capacitor
+LED's to input output the signal from the MCU
+
+Maybe add an external clock if I want?
