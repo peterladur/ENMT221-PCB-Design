@@ -9,10 +9,10 @@ Questions:
 
 
 
-Add battery connector
-2x5 input for coding
-bulk capacitor
-LED's to input output the signal from the MCU
+Add battery connector (DONE)
+2x5 input for coding (Not sure about that)
+bulk capacitor (Done    )
+LED's to input output the signal from the MCU (DONE)
 Instead of voltage_regulated just use +3.3V (DONE)
 Decoupling capactitors should be next to MCU (DONE)
 
