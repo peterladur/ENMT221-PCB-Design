@@ -3415,7 +3415,7 @@
 		(uuid "52f9a9b9-9dd3-4eca-9195-e1298717d1b3")
 	)
 	(rectangle
-		(start 127.635 139.7)
+		(start 114.935 139.7)
 		(end 174.625 194.945)
 		(stroke
 			(width 0)
@@ -3474,9 +3474,9 @@
 		)
 		(uuid "fe2e9245-eb86-4a5a-990e-e06b53e622fa")
 	)
-	(text "Debugging LED's\n"
+	(text "LED's and Buttons\n"
 		(exclude_from_sim no)
-		(at 135.636 137.16 0)
+		(at 123.698 137.668 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3697,10 +3697,6 @@
 		(uuid "812f853d-1f88-45bc-a345-0f1167ca4a0f")
 	)
 	(no_connect
-		(at 93.98 63.5)
-		(uuid "86131d2b-7133-41ca-b154-95159c6f33f8")
-	)
-	(no_connect
 		(at 63.5 91.44)
 		(uuid "8e821c68-7054-4d79-80b6-ce210e9cf2ef")
 	)
@@ -3731,10 +3727,6 @@
 	(no_connect
 		(at 167.64 124.46)
 		(uuid "da18ef52-f77d-45d1-a784-6466f7713068")
-	)
-	(no_connect
-		(at 93.98 66.04)
-		(uuid "e91d286f-2e99-4465-9464-629e0137c156")
 	)
 	(no_connect
 		(at 63.5 86.36)
@@ -4568,6 +4560,54 @@
 			)
 		)
 	)
+	(global_label "Button 1"
+		(shape input)
+		(at 93.98 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51f8fce8-2d6d-4ee4-a5ce-2904eb59b20b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.3107 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Button 1"
+		(shape input)
+		(at 121.92 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5661944a-2efe-41e4-b763-1c74be98b0a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.2507 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ADC Sensor 2"
 		(shape input)
 		(at 265.43 60.96 0)
@@ -4613,6 +4653,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Button 2"
+		(shape input)
+		(at 120.65 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "664ab54a-00fd-4b02-8554-97c71195b23f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9807 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4904,6 +4968,30 @@
 			)
 		)
 	)
+	(global_label "Button 2"
+		(shape input)
+		(at 93.98 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb09cce2-02af-4d06-856e-5e7747cf68a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.3107 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Motor 1"
 		(shape input)
 		(at 196.85 142.24 180)
@@ -4986,7 +5074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FBY8:P30_D7.3x22"
 			(at 266.7 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5057,6 +5145,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0368bd5d-fb4f-468a-865c-d4702b2ac7a4")
+		(property "Reference" "SW3"
+			(at 124.46 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+			(at 125.73 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7abc1446-8fdb-451b-b26f-f46d20f71032")
+		)
+		(pin "2"
+			(uuid "32088e5c-74c2-403a-aeb6-92041beb9415")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 265.43 87.63 0)
 		(unit 1)
@@ -5090,7 +5260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 263.652 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -5170,7 +5340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 			(at 205.74 67.0052 0)
 			(hide yes)
 			(show_name no)
@@ -5331,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 228.2952 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5412,7 +5582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 72.39 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -5573,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 96.52 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -5653,7 +5823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 158.242 90)
 			(hide yes)
 			(show_name no)
@@ -5733,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
 			(at 200.66 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5815,7 +5985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 263.652 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -6055,7 +6225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_2462_2xAA"
 			(at 165.1 68.326 90)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +6417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 169.672 90)
 			(hide yes)
 			(show_name no)
@@ -6406,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 242.57 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -6486,7 +6656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 158.75 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6577,7 +6747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tcrt5000:tcrt5000"
+		(property "Footprint" "OptoDevice:Vishay_TCRT5000"
 			(at 256.54 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -6663,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 210.82 127 0)
 			(hide yes)
 			(show_name no)
@@ -6823,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 			(at 265.43 120.3452 0)
 			(hide yes)
 			(show_name no)
@@ -6873,7 +7043,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 95.25 0)
+		(at 165.1 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6884,7 +7054,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c8326ba-b266-47a4-9bb6-420e4963e916")
 		(property "Reference" "#PWR016"
-			(at 165.1 101.6 0)
+			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6895,7 +7065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 100.33 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,7 +7076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 95.25 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,7 +7087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 95.25 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +7098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 95.25 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tcrt5000:tcrt5000"
+		(property "Footprint" "OptoDevice:Vishay_TCRT5000"
 			(at 256.54 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -7526,6 +7696,167 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe41f9f-9bba-4bbb-ab65-567345de2696")
+		(property "Reference" "#PWR041"
+			(at 121.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e80224ef-6f48-4272-a377-8c317b1cc51f")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6122a2b6-c1c5-4692-82d1-71110d2f2093")
+		(property "Reference" "R22"
+			(at 123.19 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 123.19 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 118.872 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c731360-6a33-4265-b32a-639e00c7fbbe")
+		)
+		(pin "2"
+			(uuid "dc1673dc-77bf-4e05-be7b-36b7a22e8e3e")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 165.1 64.77 0)
 		(unit 1)
@@ -7638,7 +7969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 275.2852 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7718,7 +8049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 247.65 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -7879,7 +8210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SC-59_Handsoldering"
 			(at 265.43 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7995,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 			(at 205.74 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -8240,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.96 32.0548 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +8729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 200.66 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -8441,6 +8772,88 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 121.92 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87e46de0-4132-419c-adfc-d118527f0b98")
+		(property "Reference" "SW2"
+			(at 125.73 149.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+			(at 127 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90a72bc4-de79-4e14-8d31-beb3501a75a0")
+		)
+		(pin "2"
+			(uuid "774f3fdb-a233-4ae1-ba04-fb293e28775b")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8555,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 182.372 90)
 			(hide yes)
 			(show_name no)
@@ -8713,7 +9126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 242.57 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +9444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 145.542 90)
 			(hide yes)
 			(show_name no)
@@ -9111,7 +9524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 158.75 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9204,7 +9617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 263.652 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -9247,121 +9660,6 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 165.1 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fd62dbb-db7e-4e6d-8780-4df9fa466d31")
-		(property "Reference" "BT2"
-			(at 168.91 74.3584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 168.91 76.8984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 75.946 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 75.946 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 165.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 165.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 165.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 165.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b6d0e8c-ecd4-4550-8d4f-3ce59addcf1b")
-		)
-		(pin "2"
-			(uuid "80008b69-ebfc-474e-bfed-3e8e4d574b8f")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -9717,7 +10015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 250.952 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -9797,7 +10095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 242.57 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -10083,7 +10381,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 165.1 92.71 0)
+		(at 165.1 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10093,8 +10391,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3cade64-2047-45e4-9bd3-714c3ef18561")
-		(property "Reference" "BT4"
-			(at 168.91 89.5984 0)
+		(property "Reference" "BT2"
+			(at 168.91 74.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10105,7 +10403,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 168.91 92.1384 0)
+			(at 168.91 76.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10115,8 +10413,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 91.186 90)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_2462_2xAA"
+			(at 165.1 75.946 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +10425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 91.186 90)
+			(at 165.1 75.946 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +10436,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 165.1 92.71 0)
+			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10447,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 165.1 92.71 0)
+			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +10458,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 165.1 92.71 0)
+			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +10469,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 165.1 92.71 0)
+			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10190,7 +10488,7 @@
 		(instances
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "BT4")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -10309,7 +10607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FBY8:P30_D7.3x22"
 			(at 219.71 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10538,6 +10836,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25f287a-6c3a-4000-b2bb-49a9c387cd86")
+		(property "Reference" "#PWR043"
+			(at 120.65 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a1d9bb6-ab02-46a8-aa53-050b101b98c9")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 213.36 142.24 0)
 		(unit 1)
@@ -10571,7 +10948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SC-59_Handsoldering"
 			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10807,121 +11184,6 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 165.1 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6442559-2192-4d88-8ab9-7ee5fe1e8a67")
-		(property "Reference" "BT3"
-			(at 168.91 81.9784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 168.91 84.5184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 83.566 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 83.566 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 165.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 165.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 165.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 165.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25c3f1b1-a2a2-47c0-b94b-5c691252b042")
-		)
-		(pin "2"
-			(uuid "0c72a86d-1ec7-40c8-83f9-9f255987ae78")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "BT3")
 					(unit 1)
 				)
 			)
@@ -11273,7 +11535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 158.75 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11442,7 +11704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 			(at 218.44 120.3452 0)
 			(hide yes)
 			(show_name no)
@@ -11524,7 +11786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 203.962 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -11604,7 +11866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 257.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -11731,6 +11993,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 121.92 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e931a0dc-520d-4b3c-8863-76ca5eeb5efd")
+		(property "Reference" "R21"
+			(at 124.46 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 124.46 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 120.142 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f5e0016-08cc-41e7-aa3d-9a6a5e384adc")
+		)
+		(pin "2"
+			(uuid "a78c2b5a-9484-4478-9e6c-79ba1a18dcf2")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 264.16 77.47 270)
 		(unit 1)
@@ -11841,7 +12185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tcrt5000:tcrt5000"
+		(property "Footprint" "OptoDevice:Vishay_TCRT5000"
 			(at 256.54 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -11927,7 +12271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
 			(at 160.02 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12019,7 +12363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 158.75 147.32 0)
 			(hide yes)
 			(show_name no)
