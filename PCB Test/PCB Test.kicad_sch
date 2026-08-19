@@ -4140,16 +4140,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 119.38) (xy 215.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d3b62a-d4f2-4bb2-94fd-a1f982051561")
-	)
-	(wire
-		(pts
 			(xy 266.7 123.19) (xy 274.32 123.19)
 		)
 		(stroke
@@ -4507,6 +4497,16 @@
 			(type default)
 		)
 		(uuid "9c4848ec-635b-41ec-9871-5699ed7ed843")
+	)
+	(wire
+		(pts
+			(xy 215.9 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d956d81-4816-4271-9164-7a572ada5436")
 	)
 	(wire
 		(pts
@@ -7321,7 +7321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Vishay_TCRT5000"
+		(property "Footprint" "Connector_Harwin:Harwin_LTek-Male_2x02_P2.00mm_Vertical"
 			(at 256.54 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -7884,7 +7884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Vishay_TCRT5000"
+		(property "Footprint" "Connector_Harwin:Harwin_LTek-Male_2x02_P2.00mm_Vertical"
 			(at 256.54 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -12974,7 +12974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Vishay_TCRT5000"
+		(property "Footprint" "Connector_Harwin:Harwin_LTek-Male_2x02_P2.00mm_Vertical"
 			(at 256.54 88.265 0)
 			(hide yes)
 			(show_name no)
