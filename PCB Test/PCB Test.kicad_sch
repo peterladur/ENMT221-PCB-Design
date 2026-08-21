@@ -2665,6 +2665,422 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MJTP1230:MJTP1230"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -7.62 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MJTP1230"
+				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MJTP1230:SW_MJTP1230"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tactile Switch, SPST-NO, OFF-(ON), Top Actuated, Through Hole, 0.05A, 12VDC | APEM Components MJTP1230"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "APEM Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "ASHISH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MJTP1230/APEM/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "NA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MJTP1230/APEM/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "MJTP1230"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "APEM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "MJTP1230_0_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3257,170 +3673,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -3792,7 +4044,7 @@
 		)
 	)
 	(rectangle
-		(start 168.91 22.225)
+		(start 158.115 15.24)
 		(end 224.79 53.34)
 		(stroke
 			(width 0)
@@ -3816,7 +4068,7 @@
 		(uuid "52f9a9b9-9dd3-4eca-9195-e1298717d1b3")
 	)
 	(rectangle
-		(start 114.935 139.7)
+		(start 83.185 139.7)
 		(end 174.625 194.945)
 		(stroke
 			(width 0)
@@ -3875,7 +4127,7 @@
 		)
 		(uuid "fe2e9245-eb86-4a5a-990e-e06b53e622fa")
 	)
-	(text "LED's and Buttons\n"
+	(text "LED's and Buttons"
 		(exclude_from_sim no)
 		(at 123.698 137.668 0)
 		(effects
@@ -4006,6 +4258,12 @@
 		(uuid "4f3e0ca0-5297-4296-8e6d-c34d1fc847b5")
 	)
 	(junction
+		(at 186.69 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e5c9db-e10d-45e6-85b9-317257107c92")
+	)
+	(junction
 		(at 198.12 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4054,7 +4312,7 @@
 		(uuid "d1d337dd-af5b-4f1e-93cc-7a0e1e654760")
 	)
 	(junction
-		(at 193.04 33.02)
+		(at 186.69 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd6fcde3-c76d-48e5-b7df-88a9c14c73cd")
@@ -4136,6 +4394,10 @@
 	(no_connect
 		(at 63.5 86.36)
 		(uuid "ea940089-615f-49c5-a121-e0e49d10c92d")
+	)
+	(no_connect
+		(at 93.98 66.04)
+		(uuid "f9000289-cfde-43bf-9415-0895d95467c1")
 	)
 	(no_connect
 		(at 63.5 50.8)
@@ -4253,6 +4515,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 35.56) (xy 186.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19784d73-b45e-480a-af82-b7da374e5cda")
+	)
+	(wire
+		(pts
 			(xy 248.92 36.83) (xy 248.92 35.56)
 		)
 		(stroke
@@ -4283,7 +4555,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 33.02) (xy 213.36 33.02)
+			(xy 196.85 26.67) (xy 207.01 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4333,7 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 33.02) (xy 193.04 46.99)
+			(xy 186.69 26.67) (xy 186.69 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4353,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 33.02) (xy 180.34 33.02)
+			(xy 172.72 26.67) (xy 173.99 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4373,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 33.02) (xy 195.58 33.02)
+			(xy 186.69 26.67) (xy 189.23 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4923,7 +5195,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 46.99) (xy 193.04 46.99)
+			(xy 189.23 40.64) (xy 186.69 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4943,7 +5215,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 33.02) (xy 193.04 33.02)
+			(xy 181.61 26.67) (xy 186.69 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5010,6 +5282,16 @@
 			(type default)
 		)
 		(uuid "e5940f2b-b6f7-40bd-bd26-49203dadab1e")
+	)
+	(wire
+		(pts
+			(xy 186.69 35.56) (xy 189.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75746ce-186b-431d-b7f3-ca727fd15df4")
 	)
 	(wire
 		(pts
@@ -5315,6 +5597,30 @@
 	)
 	(global_label "Button 1"
 		(shape input)
+		(at 99.06 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "380d188e-f81f-446b-bb02-74f01ac88d09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7293 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Button 1"
+		(shape input)
 		(at 93.98 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5326,30 +5632,6 @@
 		(uuid "51f8fce8-2d6d-4ee4-a5ce-2904eb59b20b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.3107 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Button 1"
-		(shape input)
-		(at 121.92 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5661944a-2efe-41e4-b763-1c74be98b0a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2507 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,30 +5739,6 @@
 			)
 		)
 	)
-	(global_label "Button 2"
-		(shape input)
-		(at 120.65 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "664ab54a-00fd-4b02-8554-97c71195b23f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9807 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Motor 2"
 		(shape input)
 		(at 220.98 142.24 0)
@@ -5579,7 +5837,7 @@
 	)
 	(global_label "DTR"
 		(shape input)
-		(at 179.07 33.02 180)
+		(at 172.72 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5589,7 +5847,7 @@
 		)
 		(uuid "81ec0741-7337-4418-825c-fa215ac8e557")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5772 33.02 0)
+			(at 166.2272 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +6005,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 189.23 33.02 270)
+		(at 182.88 26.67 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5757,7 +6015,31 @@
 		)
 		(uuid "ae125624-5a88-425c-ab05-669a375a96d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 41.7503 90)
+			(at 182.88 35.4003 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Button 1"
+		(shape input)
+		(at 99.06 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b31018a7-8521-4f3f-a736-d87a06e2da36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7293 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,30 +6072,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "Button 2"
-		(shape input)
-		(at 93.98 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb09cce2-02af-4d06-856e-5e7747cf68a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.3107 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5862,88 +6120,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 120.65 176.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0368bd5d-fb4f-468a-865c-d4702b2ac7a4")
-		(property "Reference" "SW3"
-			(at 124.46 175.2599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 124.46 177.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
-			(at 125.73 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7abc1446-8fdb-451b-b26f-f46d20f71032")
-		)
-		(pin "2"
-			(uuid "32088e5c-74c2-403a-aeb6-92041beb9415")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "SW3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6670,86 +6846,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 200.66 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cf59233-78f9-4e48-a54f-b95701795782")
-		(property "Reference" "SW1"
-			(at 200.66 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 200.66 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
-			(at 200.66 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 200.66 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8958e194-72b0-4635-88cd-f64d02cd53c7")
-		)
-		(pin "2"
-			(uuid "5f2467a5-503e-43c4-a07c-6bb2440b1802")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 154.94 86.36 0)
 		(unit 1)
@@ -7013,7 +7109,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 213.36 33.02 270)
+		(at 207.01 26.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7024,7 +7120,7 @@
 		(fields_autoplaced yes)
 		(uuid "267e84d4-631a-4806-b5b4-0e3b33223ee4")
 		(property "Reference" "#PWR025"
-			(at 209.55 33.02 0)
+			(at 203.2 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7131,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 217.17 33.0199 90)
+			(at 210.82 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7046,7 +7142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 33.02 0)
+			(at 207.01 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +7153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 33.02 0)
+			(at 207.01 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +7164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 33.02 0)
+			(at 207.01 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,6 +7454,88 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 163.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e5e7f7d-7cad-4638-a8d4-61a7e72b3256")
+		(property "Reference" "R23"
+			(at 121.9199 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680"
+			(at 124.4599 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 123.19 165.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1deef21e-1f00-477e-959e-54d6050a01bb")
+		)
+		(pin "2"
+			(uuid "6dd39db2-8675-4614-9e57-624b7cffd425")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8592,7 +8770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 163.83 0)
+		(at 119.38 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8603,7 +8781,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fe41f9f-9bba-4bbb-ab65-567345de2696")
 		(property "Reference" "#PWR041"
-			(at 121.92 170.18 0)
+			(at 119.38 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +8792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 168.91 0)
+			(at 119.38 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,7 +8803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 163.83 0)
+			(at 119.38 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8636,7 +8814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 163.83 0)
+			(at 119.38 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8647,7 +8825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 163.83 0)
+			(at 119.38 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,88 +8842,6 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6122a2b6-c1c5-4692-82d1-71110d2f2093")
-		(property "Reference" "R22"
-			(at 123.19 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680"
-			(at 123.19 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 118.872 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c731360-6a33-4265-b32a-639e00c7fbbe")
-		)
-		(pin "2"
-			(uuid "dc1673dc-77bf-4e05-be7b-36b7a22e8e3e")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9066,6 +9162,238 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MJTP1230:MJTP1230")
+		(at 109.22 166.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68142f2b-0519-460e-b640-b12989679727")
+		(property "Reference" "S2"
+			(at 109.22 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MJTP1230"
+			(at 109.22 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MJTP1230:SW_MJTP1230"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tactile Switch, SPST-NO, OFF-(ON), Top Actuated, Through Hole, 0.05A, 12VDC | APEM Components MJTP1230"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "APEM Inc."
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MJTP1230/APEM/view-part/?ref=eda"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MJTP1230/APEM/view-part/?ref=snap"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MJTP1230"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "APEM"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_1"
+			(uuid "0f7d737a-d3c4-433b-9d64-610ef3ed02b6")
+		)
+		(pin "1_2"
+			(uuid "d0fbc3d2-bf03-4ced-a3f1-fca9f769830a")
+		)
+		(pin "2_1"
+			(uuid "a6bdcde3-4a11-4565-8c6b-9d398e296dba")
+		)
+		(pin "2_2"
+			(uuid "fa73c671-8183-46db-a5b5-f1891b5ded01")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -9591,7 +9919,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 184.15 33.02 90)
+		(at 177.8 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9602,7 +9930,7 @@
 		(fields_autoplaced yes)
 		(uuid "823a8fb3-943e-4db6-9769-1d46aae5d4f5")
 		(property "Reference" "C3"
-			(at 184.15 25.4 90)
+			(at 177.8 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9612,7 +9940,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 184.15 27.94 90)
+			(at 177.8 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9622,7 +9950,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 187.96 32.0548 0)
+			(at 181.61 25.7048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +9961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 33.02 0)
+			(at 177.8 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,7 +9972,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 184.15 33.02 0)
+			(at 177.8 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9823,88 +10151,6 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 151.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87e46de0-4132-419c-adfc-d118527f0b98")
-		(property "Reference" "SW2"
-			(at 125.73 149.8599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 125.73 152.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90a72bc4-de79-4e14-8d31-beb3501a75a0")
-		)
-		(pin "2"
-			(uuid "774f3fdb-a233-4ae1-ba04-fb293e28775b")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10313,6 +10559,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ec97348-a776-40c5-9a80-385254de1f24")
+		(property "Reference" "#PWR050"
+			(at 209.55 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3a47011-e73c-4221-aa40-883412880023")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 162.56 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -10392,7 +10717,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 33.02 90)
+		(at 193.04 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10403,7 +10728,7 @@
 		(fields_autoplaced yes)
 		(uuid "92f1a4a3-0028-4409-a17c-828d8d9b4a68")
 		(property "Reference" "R1"
-			(at 199.39 26.67 90)
+			(at 193.04 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10413,7 +10738,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 199.39 29.21 90)
+			(at 193.04 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10423,7 +10748,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 199.39 34.798 90)
+			(at 193.04 28.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10434,7 +10759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 33.02 0)
+			(at 193.04 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10445,7 +10770,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 33.02 0)
+			(at 193.04 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11924,85 +12249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c25f287a-6c3a-4000-b2bb-49a9c387cd86")
-		(property "Reference" "#PWR043"
-			(at 120.65 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a1d9bb6-ab02-46a8-aa53-050b101b98c9")
-		)
-		(instances
-			(project "PCB Test"
-				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 204.47 142.24 0)
 		(mirror y)
@@ -12352,6 +12598,85 @@
 			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf06a50f-a841-4b38-b1f2-0542bc971a8d")
+		(property "Reference" "#PWR048"
+			(at 127 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93872445-66b5-4f99-b730-0490809e8901")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12919,6 +13244,238 @@
 		)
 	)
 	(symbol
+		(lib_id "MJTP1230:MJTP1230")
+		(at 199.39 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f54bce-a068-45cc-88f0-79aac394a507")
+		(property "Reference" "S4"
+			(at 199.39 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MJTP1230"
+			(at 199.39 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MJTP1230:SW_MJTP1230"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tactile Switch, SPST-NO, OFF-(ON), Top Actuated, Through Hole, 0.05A, 12VDC | APEM Components MJTP1230"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "APEM Inc."
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MJTP1230/APEM/view-part/?ref=eda"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MJTP1230/APEM/view-part/?ref=snap"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MJTP1230"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "APEM"
+			(at 199.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_1"
+			(uuid "eff0833b-8e3d-4e1a-8956-41b738a3e1af")
+		)
+		(pin "1_2"
+			(uuid "08e52636-a043-41b8-bdc9-c58de6e628bc")
+		)
+		(pin "2_1"
+			(uuid "cdf3b0c8-cdec-49fd-9e4e-432818ea4b56")
+		)
+		(pin "2_2"
+			(uuid "56884bc3-bcfd-49f1-bc84-3eb91d27769b")
+		)
+		(instances
+			(project "PCB Test"
+				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 262.89 116.84 0)
 		(unit 1)
@@ -13326,7 +13883,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 160.02 0)
+		(at 119.38 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13337,7 +13894,7 @@
 		(fields_autoplaced yes)
 		(uuid "e931a0dc-520d-4b3c-8863-76ca5eeb5efd")
 		(property "Reference" "R21"
-			(at 124.46 158.7499 0)
+			(at 121.92 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13348,7 +13905,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 124.46 161.2899 0)
+			(at 121.92 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13359,7 +13916,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 120.142 160.02 90)
+			(at 117.602 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13370,7 +13927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 160.02 0)
+			(at 119.38 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +13938,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 160.02 0)
+			(at 119.38 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,7 +14464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 46.99 0)
+		(at 209.55 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13918,7 +14475,7 @@
 		(fields_autoplaced yes)
 		(uuid "fff3d9f9-f7c9-4faa-b4a9-9d2d07206064")
 		(property "Reference" "#PWR06"
-			(at 205.74 53.34 0)
+			(at 209.55 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13929,7 +14486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 52.07 0)
+			(at 209.55 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13940,7 +14497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 46.99 0)
+			(at 209.55 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13951,7 +14508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 46.99 0)
+			(at 209.55 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +14519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 46.99 0)
+			(at 209.55 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
