@@ -4198,6 +4198,12 @@
 		(uuid "de6d8d77-a514-46da-8941-8075c0e461a1")
 	)
 	(junction
+		(at 266.7 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17a917d9-5c74-4c88-a632-288e6e387f58")
+	)
+	(junction
 		(at 201.93 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4238,6 +4244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c31974c-83b5-4652-86cf-641029593de1")
+	)
+	(junction
+		(at 266.7 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f3e0ca0-5297-4296-8e6d-c34d1fc847b5")
 	)
 	(junction
 		(at 186.69 35.56)
@@ -4398,6 +4410,16 @@
 			(type default)
 		)
 		(uuid "03751b52-12c3-4a98-9dcf-e7ff057dd89f")
+	)
+	(wire
+		(pts
+			(xy 266.7 123.19) (xy 274.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0839a654-2ede-44cf-bddf-fd8092128ee5")
 	)
 	(wire
 		(pts
@@ -4641,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 133.35) (xy 274.32 133.35)
+			(xy 262.89 133.35) (xy 266.7 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4668,16 +4690,6 @@
 			(type default)
 		)
 		(uuid "4bbc80a8-3144-45a8-bfae-85a5ba957239")
-	)
-	(wire
-		(pts
-			(xy 262.89 132.08) (xy 262.89 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7a7c43-d7f7-48cb-a5bc-8fb77788713e")
 	)
 	(wire
 		(pts
@@ -4761,6 +4773,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 124.46) (xy 266.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79226e21-9672-45f4-ad4f-646cdb393a42")
+	)
+	(wire
+		(pts
 			(xy 250.19 82.55) (xy 250.19 81.28)
 		)
 		(stroke
@@ -4841,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 123.19) (xy 274.32 123.19)
+			(xy 262.89 123.19) (xy 266.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5041,16 +5063,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 123.19) (xy 262.89 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb43d4b9-2a24-4629-913c-ffcfe4e6f8d2")
-	)
-	(wire
-		(pts
 			(xy 190.5 123.19) (xy 201.93 123.19)
 		)
 		(stroke
@@ -5058,6 +5070,16 @@
 			(type default)
 		)
 		(uuid "bb63d11a-777c-4e1a-a288-d45d282e0aba")
+	)
+	(wire
+		(pts
+			(xy 266.7 133.35) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24aabd5-7113-46e4-955d-8328ede4de59")
 	)
 	(wire
 		(pts
@@ -5278,6 +5300,16 @@
 			(type default)
 		)
 		(uuid "f005b38a-ce03-4130-b7e6-ced967212398")
+	)
+	(wire
+		(pts
+			(xy 266.7 133.35) (xy 274.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a3107a-1e1e-49cd-89f2-93b535061020")
 	)
 	(wire
 		(pts
@@ -6123,7 +6155,7 @@
 			(uuid "d8ab7327-8f2e-4ea7-af8a-0d525e3b76b8")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R17")
 					(unit 1)
@@ -6203,7 +6235,7 @@
 			(uuid "66f4ecb5-6929-462a-a47f-75f341f829b2")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C7")
 					(unit 1)
@@ -6279,7 +6311,7 @@
 			)
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "H4")
 					(unit 1)
@@ -6358,7 +6390,7 @@
 			(uuid "e62775ed-fdba-4f61-9853-a02532ab9e64")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR021")
 					(unit 1)
@@ -6441,7 +6473,7 @@
 			(uuid "ec7e73a5-8e30-4c1e-8eff-e9db9fde280a")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C5")
 					(unit 1)
@@ -6522,7 +6554,7 @@
 			(uuid "024eedc7-f7f3-4f83-a5c9-357505df9871")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C8")
 					(unit 1)
@@ -6601,7 +6633,7 @@
 			(uuid "86ea1908-85c5-4723-9198-b3dc21b02bc0")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR036")
 					(unit 1)
@@ -6683,7 +6715,7 @@
 			(uuid "498e37a5-4912-4fa4-9877-9addd22a9294")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C9")
 					(unit 1)
@@ -6763,7 +6795,7 @@
 			(uuid "6af799e1-c0a5-4381-9b62-ee9cf9f4598e")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R18")
 					(unit 1)
@@ -6839,7 +6871,7 @@
 			)
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "H1")
 					(unit 1)
@@ -6943,7 +6975,7 @@
 			(uuid "d192511a-07d7-4493-9a31-c79b069ebfb0")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "J2")
 					(unit 1)
@@ -7025,7 +7057,7 @@
 			(uuid "3da53df7-dd16-481e-9049-ffa4ea831d01")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R15")
 					(unit 1)
@@ -7104,7 +7136,7 @@
 			(uuid "965f7971-ac20-4e5a-8e94-31e9123028e2")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR025")
 					(unit 1)
@@ -7183,7 +7215,7 @@
 			(uuid "f3a26913-ac7c-441e-a47a-969721445a4a")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR019")
 					(unit 1)
@@ -7298,7 +7330,7 @@
 			(uuid "d66992d6-7269-4a79-a520-e268f5a6d969")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "BT1")
 					(unit 1)
@@ -7377,7 +7409,7 @@
 			(uuid "19336676-3243-4696-a303-500f9d7dd63d")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR08")
 					(unit 1)
@@ -7459,7 +7491,7 @@
 			(uuid "6dd39db2-8675-4614-9e57-624b7cffd425")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R23")
 					(unit 1)
@@ -7541,7 +7573,7 @@
 			(uuid "92249875-cddb-4b15-92e2-f55e79122caa")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "D1")
 					(unit 1)
@@ -7621,7 +7653,7 @@
 			(uuid "9eac2cda-a1c1-413f-89f2-d58b89941716")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R19")
 					(unit 1)
@@ -7700,7 +7732,7 @@
 			(uuid "d073d1cf-83f3-46fa-955b-ea1266fe4548")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR07")
 					(unit 1)
@@ -7786,7 +7818,7 @@
 			(uuid "01e67eda-fee9-4ce3-817d-ed4c10095713")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "J4")
 					(unit 1)
@@ -7866,7 +7898,7 @@
 			(uuid "5538a494-7d8f-43e2-867f-8936834030ca")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R8")
 					(unit 1)
@@ -7957,7 +7989,7 @@
 			(uuid "be436714-5eb4-4de3-aaf0-cab338ab4d1b")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "D10")
 					(unit 1)
@@ -8037,7 +8069,7 @@
 			(uuid "f7bab41b-f93d-42a0-b8ba-ed19b2fb5242")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR017")
 					(unit 1)
@@ -8117,7 +8149,7 @@
 			(uuid "69152cf8-803e-4f99-9237-7151d5c68889")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C2")
 					(unit 1)
@@ -8196,7 +8228,7 @@
 			(uuid "3a329798-4e51-40f1-8cad-2e58eaf2801d")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR016")
 					(unit 1)
@@ -8275,7 +8307,7 @@
 			(uuid "4ecaad29-2503-407f-94b6-631866eb727d")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR012")
 					(unit 1)
@@ -8354,7 +8386,7 @@
 			(uuid "f1a68ed4-70ac-49d0-a3bb-b40c2decc072")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR031")
 					(unit 1)
@@ -8433,7 +8465,7 @@
 			(uuid "6b3d3755-23a7-472d-bf11-b2010f563eae")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR028")
 					(unit 1)
@@ -8606,7 +8638,7 @@
 			(uuid "7e158775-30ed-4474-a2c3-1cb64f8c8f64")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "U1")
 					(unit 1)
@@ -8685,7 +8717,7 @@
 			(uuid "53ceea14-f069-44f2-b297-5385419938ba")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR03")
 					(unit 1)
@@ -8764,7 +8796,7 @@
 			(uuid "e80224ef-6f48-4272-a377-8c317b1cc51f")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR041")
 					(unit 1)
@@ -8842,7 +8874,7 @@
 			(uuid "d169e56d-04e0-4907-878e-6c582218ad01")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR015")
 					(unit 1)
@@ -8921,7 +8953,7 @@
 			(uuid "d6fcb8b6-cacf-4beb-93d7-38b984cb259a")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR047")
 					(unit 1)
@@ -9004,7 +9036,7 @@
 			(uuid "ed3c7f12-5cfa-4ace-8126-711c46b98b42")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C6")
 					(unit 1)
@@ -9084,7 +9116,7 @@
 			(uuid "6e482394-d1da-4b10-a8a2-dba0c55114f4")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R12")
 					(unit 1)
@@ -9316,7 +9348,7 @@
 			(uuid "fa73c671-8183-46db-a5b5-f1891b5ded01")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "S2")
 					(unit 1)
@@ -9395,7 +9427,7 @@
 			(uuid "ef194e21-b3ad-4cf7-abd0-cc0824ca6d55")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR042")
 					(unit 1)
@@ -9513,7 +9545,7 @@
 			(uuid "49c21382-fab6-4561-bf64-4d7ba4c0803d")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "Q3")
 					(unit 1)
@@ -9593,7 +9625,7 @@
 			(uuid "c2b9972f-a2be-4813-9804-0a94d60092f1")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C4")
 					(unit 1)
@@ -9669,7 +9701,7 @@
 			)
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "H3")
 					(unit 1)
@@ -9748,7 +9780,7 @@
 			(uuid "455f9e4c-e348-497a-84a1-f6ca27145f7b")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR027")
 					(unit 1)
@@ -9834,7 +9866,7 @@
 			(uuid "edb4f03b-b8d8-4ab7-9309-7617e429b059")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "U5")
 					(unit 1)
@@ -9914,7 +9946,7 @@
 			(uuid "72a7cc8c-491c-4392-9eb9-f7b68d1da489")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C3")
 					(unit 1)
@@ -9992,7 +10024,7 @@
 			(uuid "abdaa4d5-d912-4d80-a472-640c1ebd815c")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#FLG03")
 					(unit 1)
@@ -10073,7 +10105,7 @@
 			(uuid "44ca3614-470f-44ad-9d8a-d7b350d2e84d")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R10")
 					(unit 1)
@@ -10150,7 +10182,7 @@
 			(uuid "db47eb6b-d77e-48ed-9131-2fb99dfbcc45")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR01")
 					(unit 1)
@@ -10236,7 +10268,7 @@
 			(uuid "7f0736ce-41af-4e0e-97e2-9a1a20a49735")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "J5")
 					(unit 1)
@@ -10316,7 +10348,7 @@
 			(uuid "9b883dd1-bdd1-4978-b42b-0fefe7f816cd")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R20")
 					(unit 1)
@@ -10394,7 +10426,7 @@
 			(uuid "237a2c22-45a4-4269-b38c-5fb947435f0b")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR05")
 					(unit 1)
@@ -10474,7 +10506,7 @@
 			(uuid "8c878ad9-5fc1-4d55-80ee-496509129569")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R16")
 					(unit 1)
@@ -10553,7 +10585,7 @@
 			(uuid "b3a47011-e73c-4221-aa40-883412880023")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR050")
 					(unit 1)
@@ -10632,7 +10664,7 @@
 			(uuid "c811487b-9535-48ff-91f2-3ec2fc2e2f4a")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR030")
 					(unit 1)
@@ -10712,7 +10744,7 @@
 			(uuid "62f48bdf-44af-45aa-b558-f26d4857a428")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R1")
 					(unit 1)
@@ -10798,7 +10830,7 @@
 			(uuid "135954bf-b325-4cb8-9880-aff4881e4edd")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "J3")
 					(unit 1)
@@ -10877,7 +10909,7 @@
 			(uuid "03d97680-f36f-4e84-beb8-8f5ec986a536")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR029")
 					(unit 1)
@@ -10957,7 +10989,7 @@
 			(uuid "2a36c3c1-32b5-4a0c-9fb4-cc1d6fd3fdef")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R7")
 					(unit 1)
@@ -11048,7 +11080,7 @@
 			(uuid "2e8c5ea3-6ee3-4094-ad04-1ebe3edeed85")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "D9")
 					(unit 1)
@@ -11130,7 +11162,7 @@
 			(uuid "2aa02bc2-2e06-400d-a937-bb19bca5e4ee")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R9")
 					(unit 1)
@@ -11209,7 +11241,7 @@
 			(uuid "9cbbc5c3-0bfb-439e-ae9c-70080310f293")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR033")
 					(unit 1)
@@ -11288,7 +11320,7 @@
 			(uuid "fcd7b706-2e16-4fc5-81d9-4499abd86113")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR020")
 					(unit 1)
@@ -11367,7 +11399,7 @@
 			(uuid "e38c93f8-5d76-453b-84cb-f731e224b7ce")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR032")
 					(unit 1)
@@ -11377,7 +11409,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 262.89 128.27 270)
+		(at 266.7 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11385,9 +11417,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a4c47ef1-dd13-4b1e-b32f-0cdc9e9cfc68")
 		(property "Reference" "D2"
-			(at 250.19 126.746 90)
+			(at 269.24 126.6824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11398,7 +11431,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 250.444 128.778 90)
+			(at 269.24 129.2224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11409,7 +11442,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 262.89 128.27 0)
+			(at 266.7 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11420,7 +11453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 128.27 0)
+			(at 266.7 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11431,7 +11464,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 262.89 128.27 0)
+			(at 266.7 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11448,7 +11481,7 @@
 			(uuid "e661a879-c72a-4640-936a-7c5cd1648f74")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "D2")
 					(unit 1)
@@ -11527,7 +11560,7 @@
 			(uuid "726f24f9-72e8-4a67-8308-8899f0ebaad3")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR024")
 					(unit 1)
@@ -11609,7 +11642,7 @@
 			(uuid "a9fcce86-af82-4c0b-a8da-7b09a998dda1")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R13")
 					(unit 1)
@@ -11689,7 +11722,7 @@
 			(uuid "63a46707-03d4-461f-9918-c826753811a8")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R14")
 					(unit 1)
@@ -11769,7 +11802,7 @@
 			(uuid "b848470f-43b8-44b5-9a10-5b5680b9353e")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR011")
 					(unit 1)
@@ -11847,7 +11880,7 @@
 			(uuid "0556cfd2-9d0d-42df-9108-109210432276")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR013")
 					(unit 1)
@@ -11926,7 +11959,7 @@
 			(uuid "644c51fe-8dac-4f3f-be26-b64339a796de")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR010")
 					(unit 1)
@@ -12005,7 +12038,7 @@
 			(uuid "e397b680-24b2-48e4-b192-152a75581494")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR09")
 					(unit 1)
@@ -12085,7 +12118,7 @@
 			(uuid "cfcaf470-4506-40ea-be7e-fd730c853eaa")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR018")
 					(unit 1)
@@ -12164,7 +12197,7 @@
 			(uuid "4900b891-514c-4591-afdf-cfa116ca3b53")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR023")
 					(unit 1)
@@ -12283,7 +12316,7 @@
 			(uuid "86b9face-eaa6-492c-869e-ce2687fba1b1")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "Q2")
 					(unit 1)
@@ -12362,7 +12395,7 @@
 			(uuid "02debf80-173d-4001-84d0-6a9f8844261f")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR034")
 					(unit 1)
@@ -12441,7 +12474,7 @@
 			(uuid "4e32dc4b-2b25-4ebd-ad4e-c30eeb0fbdb9")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR037")
 					(unit 1)
@@ -12519,7 +12552,7 @@
 			(uuid "1b28eb5a-18dc-4e49-bbd5-dd85ae31eac7")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#FLG01")
 					(unit 1)
@@ -12598,7 +12631,7 @@
 			(uuid "93872445-66b5-4f99-b730-0490809e8901")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR048")
 					(unit 1)
@@ -12677,7 +12710,7 @@
 			(uuid "6c195dd7-46a7-47be-9118-bd81ac385358")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR022")
 					(unit 1)
@@ -12756,7 +12789,7 @@
 			(uuid "d0001c0d-254f-4a97-8e48-5e2917dc4cab")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR014")
 					(unit 1)
@@ -12834,7 +12867,7 @@
 			(uuid "f4544bc0-a595-4061-a053-361396c474f3")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR040")
 					(unit 1)
@@ -12913,7 +12946,7 @@
 			(uuid "de6c5d4f-5bbb-4035-b81f-83de475bc5b8")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR045")
 					(unit 1)
@@ -12992,7 +13025,7 @@
 			(uuid "16c34a9f-fbaf-4772-b2a9-2600548eb472")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR044")
 					(unit 1)
@@ -13083,7 +13116,7 @@
 			(uuid "3db74eb3-f0f3-490b-8638-bc4cc9811a50")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "D11")
 					(unit 1)
@@ -13159,7 +13192,7 @@
 			)
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "H2")
 					(unit 1)
@@ -13391,7 +13424,7 @@
 			(uuid "56884bc3-bcfd-49f1-bc84-3eb91d27769b")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "S4")
 					(unit 1)
@@ -13469,7 +13502,7 @@
 			(uuid "f409c637-c9c1-413c-ab44-81c62a48c95b")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR038")
 					(unit 1)
@@ -13550,7 +13583,7 @@
 			(uuid "77e605f0-cd92-443f-a543-dafac31d415c")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "C1")
 					(unit 1)
@@ -13636,7 +13669,7 @@
 			(uuid "0802f15c-4fbd-4e96-b608-29f6d957208a")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "J1")
 					(unit 1)
@@ -13719,7 +13752,7 @@
 			(uuid "beaee7a1-33d1-477e-ae0d-4539707f8733")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R11")
 					(unit 1)
@@ -13797,7 +13830,7 @@
 			(uuid "5a7d86cc-4d39-40b1-b9d6-d47aefebf48b")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR04")
 					(unit 1)
@@ -13879,7 +13912,7 @@
 			(uuid "a78c2b5a-9484-4478-9e6c-79ba1a18dcf2")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "R21")
 					(unit 1)
@@ -13958,7 +13991,7 @@
 			(uuid "cbc027a3-11a5-4be4-b023-fcc2b3e976cb")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR035")
 					(unit 1)
@@ -14050,7 +14083,7 @@
 			(uuid "61e3533b-d05c-4528-8d1b-b2214ac17270")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "J6")
 					(unit 1)
@@ -14141,7 +14174,7 @@
 			(uuid "de3ebfbd-0f3b-4748-a53b-e2490ba9f1dc")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "D8")
 					(unit 1)
@@ -14220,7 +14253,7 @@
 			(uuid "106ca784-d23c-438a-ba92-c86e8fcfa1f8")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR039")
 					(unit 1)
@@ -14299,7 +14332,7 @@
 			(uuid "52ff2b44-c081-4182-aae3-f3a0ebd37ee7")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR026")
 					(unit 1)
@@ -14378,7 +14411,7 @@
 			(uuid "681ab512-d373-4afe-b0cd-ac0063d2b571")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR046")
 					(unit 1)
@@ -14457,7 +14490,7 @@
 			(uuid "220c66d4-3dc9-4eff-b483-f7407aee1d8f")
 		)
 		(instances
-			(project "LFR_ATMega4808"
+			(project "PCB Test"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
 					(reference "#PWR06")
 					(unit 1)
