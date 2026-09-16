@@ -15972,6 +15972,19 @@
 		(layer "Edge.Cuts")
 		(uuid "125c3245-afef-4f96-94b8-11c80673d65b")
 	)
+	(gr_text "LabA/01 B: Peter, Arinze, Antoine, Ollie"
+		(at 170.5 77 0)
+		(layer "B.SilkS")
+		(uuid "65728706-3776-4314-bafe-561a20b0d3af")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 135.25 93.25)
 		(end 137.7375 93.25)
@@ -17277,6 +17290,22 @@
 		(uuid "8b0573bc-8776-4ab9-934b-2e3c1523d4f3")
 	)
 	(segment
+		(start 172.5 111)
+		(end 171 111)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(R23-Pad1)")
+		(uuid "6914e89e-2176-4770-8fab-b018b99f973f")
+	)
+	(segment
+		(start 171 111)
+		(end 170 112)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(R23-Pad1)")
+		(uuid "f216a8ed-5da7-4c50-804f-8775de4cf79c")
+	)
+	(segment
 		(start 153.199999 126.456499)
 		(end 153.199999 126.385787)
 		(width 0.5)
@@ -17667,6 +17696,22 @@
 		(layer "F.Cu")
 		(net "Net-(D9-A)")
 		(uuid "db1f0140-d90f-4a2e-8c42-e0505a638b80")
+	)
+	(segment
+		(start 172.5 117)
+		(end 170.5 117)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(R21-Pad1)")
+		(uuid "3fa74a8f-2ed7-4645-bf66-8c09f14bbb41")
+	)
+	(segment
+		(start 170.5 117)
+		(end 170 116.5)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(R21-Pad1)")
+		(uuid "755e84cd-3168-4177-bc47-a5d53bc76255")
 	)
 	(segment
 		(start 169.25 139.25)
