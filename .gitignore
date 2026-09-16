@@ -1,2 +1,5 @@
 # Local files that must not be published (contains personal/student info)
 pla82_Individual_report.pdf
+
+# Kept local only, hidden from public repo
+TransmissionSystem/
