@@ -13762,10 +13762,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a193dd1-e400-4281-a446-a65fa8ddd85f")
 		(property "Reference" "R20"
-			(at 81.28 179.07 90)
+			(at 81.915 179.705 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13774,8 +13773,8 @@
 				)
 			)
 		)
-		(property "Value" "150"
-			(at 81.28 181.61 90)
+		(property "Value" "2.2k"
+			(at 81.915 182.245 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
