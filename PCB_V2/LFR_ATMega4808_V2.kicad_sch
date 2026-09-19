@@ -10243,7 +10243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a618252-593e-42fb-8679-b821307c37fa")
-		(property "Reference" "TP_4.8V"
+		(property "Reference" "TP_4.8V1"
 			(at 123.19 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10302,7 +10302,7 @@
 		(instances
 			(project "LFR_ATMega4808_V2"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "TP_4.8V")
+					(reference "TP_4.8V1")
 					(unit 1)
 				)
 			)
@@ -18467,7 +18467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc8eaf8b-544d-4963-ab6f-15170a123637")
-		(property "Reference" "TP_3.3V"
+		(property "Reference" "TP_3.3V1"
 			(at 121.285 61.595 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18526,7 +18526,7 @@
 		(instances
 			(project "LFR_ATMega4808_V2"
 				(path "/7fcd8b9a-e9e6-4d51-9258-8399f733a0d2"
-					(reference "TP_3.3V")
+					(reference "TP_3.3V1")
 					(unit 1)
 				)
 			)
